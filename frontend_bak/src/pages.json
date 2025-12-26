@@ -1,0 +1,82 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "BioInfo1on1"
+      }
+    },
+    {
+      "path": "pages/mentor/detail",
+      "style": {
+        "navigationBarTitleText": "导师详情"
+      }
+    },
+    {
+      "path": "pages/ai-match/index",
+      "style": {
+        "navigationBarTitleText": "智能匹配"
+      }
+    },
+    {
+      "path": "pages/appointment/create",
+      "style": {
+        "navigationBarTitleText": "预约咨询"
+      }
+    },
+    {
+      "path": "pages/appointment/detail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/appointment/list",
+      "style": {
+        "navigationBarTitleText": "我的订单"
+      }
+    },
+    {
+      "path": "pages/appointment/lesson-plan",
+      "style": {
+        "navigationBarTitleText": "AI 教案"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#2B579A",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/ai-match/index",
+        "text": "智能匹配"
+      },
+      {
+        "pagePath": "pages/appointment/list",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "BioInfo1on1",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
